@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.card {
+    width: 18rem;
+    transition: transform 0.2s;
+}
+
+.card:hover {
+    transform: scale(1.05);
+}
+
+.card-img-top {
+    height: 260px;
+    object-fit: cover;
+}
+
+input {
+    max-width: 400px;
+    margin: 0 auto;
+}
